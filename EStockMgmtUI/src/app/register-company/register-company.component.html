@@ -1,0 +1,49 @@
+<body>
+    <div class="company-container">
+                    <h3>Register Company!!!</h3>
+            <div class="company code">
+                <mat-form-field class="example-form-field" appearance="fill">
+                    <input matInput placeholder="Enter Company Code" name="companyCode" 
+                    [(ngModel)]="companymod.companyCode">
+                </mat-form-field>
+            </div>
+            <div class="company name">
+                <mat-form-field class="example-form-field" appearance="fill">
+                    <input matInput  placeholder="Enter Company Name" name="companyName" 
+                    [(ngModel)]="companymod.companyName">
+                </mat-form-field>
+            </div>
+            <div class="company ceo">
+                <mat-form-field class="example-form-field" appearance="fill">
+                    <input matInput  placeholder="Enter Company CEO" name="companyCEO" 
+                    [(ngModel)]="companymod.companyCEO">
+                </mat-form-field>
+            </div>
+            <div class="company turnover">
+                <mat-form-field class="example-form-field" appearance="fill">
+                    <input matInput  placeholder="Enter Company Turnover" name="companyTurnover" 
+                    [(ngModel)]="companymod.companyTurnover">
+                </mat-form-field>
+            </div>
+            <div class="company website">
+                <mat-form-field class="example-form-field" appearance="fill">
+                    <input matInput  placeholder="Enter Company Website" name="companyWebsite" 
+                    [(ngModel)]="companymod.companyWebsite">
+                </mat-form-field>
+            </div>
+            <div class="stock exchange">
+                <mat-form-field class="example-form-field" appearance="fill">
+                    <input matInput  placeholder="Enter Stock Exchange" name="stockExchange" 
+                    [(ngModel)]="companymod.stockExchange">
+                </mat-form-field>
+            </div>
+                <div class="container-fluid padding">
+                    <div class="row">
+                        <div class="col-md-2" style="width: 60px;">
+                            <button mat-raised-button color="primary" (click)="addCompany()"><mat-icon>done_outline</mat-icon> Save Company</button>
+                        </div>
+                    </div>
+                </div>
+        <br>
+    </div>
+</body>
