@@ -52,7 +52,7 @@ public class CompanyServiceImpl implements CompanyService{
 			company1.setCompanyCEO(company.getCompanyCEO());
 			company1.setStockExchange(company.getStockExchange());
 			company1.setStockPrice(company.getStockPrice());
-			company.setCompanyWebsite(company.getCompanyWebsite());
+			company1.setCompanyWebsite(company.getCompanyWebsite());
 			companyRepo.saveAndFlush(company1);
 			return true;
 		}
@@ -78,7 +78,7 @@ public class CompanyServiceImpl implements CompanyService{
 			company1.setCompanyCEO(company.getCompanyCEO());
 			company1.setStockExchange(company.getStockExchange());
 			company1.setStockPrice(company.getStockPrice());
-			company.setCompanyWebsite(company.getCompanyWebsite());
+			company1.setCompanyWebsite(company.getCompanyWebsite());
 			companyRepo.saveAndFlush(company1);
 			return true;
 		}
